@@ -1,0 +1,11 @@
+<resources>
+    <string name="nameofapp">Workout Tracker</string>
+    <string name="addworkout">Add workout</string>
+    <string name="nameofworkout">Workout name</string>
+    <string name="minutes">Minutes</string>
+    <string name="done">Done</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="dumbbellicon">workout icon</string>
+    <string name="sample">Workout - 30 min</string>
+</resources>

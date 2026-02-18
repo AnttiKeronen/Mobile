@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <EditText
+            android:id="@+id/WorkoutName"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/nameofworkout"
+            android:inputType="text"
+            android:padding="12dp" />
+        <EditText
+            android:id="@+id/WorkoutMinutes"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="12dp"
+            android:hint="@string/minutes"
+            android:inputType="number"
+            android:padding="12dp" />
+        <Switch
+            android:id="@+id/DoneSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/done" />
+        <Button
+            android:id="@+id/Savebutton"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/save" />
+    </LinearLayout>
+</ScrollView>
